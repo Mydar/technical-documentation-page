@@ -1,0 +1,33 @@
+* {margin: 0px;
+padding: 10px;}
+body {display: grid;
+grid-template-columns: auto 80%;
+grid-gap: 0px;}
+#navbar {display: grid;
+background-color: rgba(0, 0, 0, 0.2);
+position: fixed;
+margin-top:0px;
+margin-left: 0px;}
+hr {padding: 0px;}
+#nav-hr {padding: 3px;
+background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);}
+header {font-weight: bold;}
+.nav-link {text-decoration: none;
+font-weight: normal;
+color: #000;}
+#navheader {font-family: 'Heebo', sans-serif;
+font-size: 20px;}
+.headers {font-family: 'Lobster', cursive;
+font-size: 20px;}
+code {background-color: rgba(0, 0, 0, 0.1);}
+@media (max-width: 1200px)
+
+{body {display: flex;
+flex-direction: row;
+flex-wrap: wrap;}
+#navbar {display: flex;
+  flex-wrap: wrap;
+background-color: rgba(0, 0, 0, 0.2);
+position: relative;
+margin-top:0px;}
+}
